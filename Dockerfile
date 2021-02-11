@@ -1,9 +1,9 @@
 FROM bbox:latest
 
-WORKDIR /usr/src/cppweb/hello_crow
+WORKDIR /usr/src/hello_crow
 COPY . .
 
-WORKDIR /usr/src/cppweb/hello_crow/build
+WORKDIR /usr/src/hello_crow/build
 RUN cmake .
 RUN make
 CMD ["./hello_crow"]
