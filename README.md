@@ -4,7 +4,7 @@
 
 ## Installation
 
-1. Install [docker]](https://docs.docker.com/get-docker/)
+1. Install [docker](https://docs.docker.com/get-docker/)
 2. Create docker image with mongoc and mongocxx driver.enter bbox directory and run
 
 ```bash
